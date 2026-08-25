@@ -114,9 +114,8 @@ Boundaries are set. (Read me) IP
 
 All permission requests must be made by physical mail:
 
-AMTD INC  
-2971 Fields Drive  
-Lithonia, GA 30038  
+AMTD INC
+Email admin@i-myriad-fm.com
 United States
 
 Requests should include:
