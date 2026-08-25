@@ -131,6 +131,6 @@ Digital requests are not accepted.
 AMTD INC — Intellectual Proprietary Notice 
 
 All content in this repository is original creative work.  
-All rights to the creative expression, world-eco/infrastrure building, and conceptual systems layers and or stem, ECO-Sytems creations-generators,Art works i myriad galleries, curriculums,manuals,schema, device archetectures diagrams,UUIDS Creator name Alicia C Lacy, etc are reserved by AMTD. DBA Goddess Affiliate Network.
+All rights to the creative expression, world-eco/infrastrure building, and conceptual systems layers and or stem, ECO-Sytems creations-generators,Art works i myriad galleries, curriculums,manuals,schema, device archetectures diagrams,UUIDS Creator name Alicia C Lacy, etc are reserved by AMTD INC I MYRIAD FM DBA Goddess Affiliate Network.
 
 All intellectual property — including systems, layers, STEM eco‑systems, creations, generators, curriculums, manuals, schemas, and related conceptual works — is reserved by AMTD INC and may not be used without permission
