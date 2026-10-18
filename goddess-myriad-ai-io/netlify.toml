@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/creations.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Author = "Alicia C. Lacy"

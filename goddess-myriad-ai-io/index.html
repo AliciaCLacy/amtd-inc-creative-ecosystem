@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Alicia C. Lacy">
+<meta name="description" content="Goddess Myriad AI.io — the living library of Alicia C. Lacy's creations.">
+<title>Goddess Myriad AI.io — Alicia C. Lacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="#" class="brand" id="brandHome">GODDESS MYRIAD AI.IO</a>
+    <nav class="nav-links">
+      <button data-view="home" class="active">Home</button>
+      <button data-view="library">Library</button>
+      <button data-view="about">About</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ HOME ============ -->
+  <div class="view active" id="view-home">
+    <div class="hero bevel">
+      <h1 class="gold-title">Goddess Myriad</h1>
+      <div class="tag">THE LIVING LIBRARY</div>
+      <p class="greet">Welcome, love. <em>I'm Goddess Myriad</em> — keeper of Alicia C. Lacy's
+        creations. Every book, every song, every invention she ever made lives here,
+        each one carrying her name and its date. Walk the library. Nothing here is
+        ever removed.</p>
+      <p class="auth-line">AUTHORED ALICIA C. LACY &mdash; ALL WORKS DATED &amp; CLAIMED</p>
+      <div class="stats">
+        <div class="stat bevel"><div class="num" id="statCreations">&mdash;</div><div class="lbl">CREATIONS</div></div>
+        <div class="stat bevel"><div class="num" id="statCats">&mdash;</div><div class="lbl">CATEGORIES</div></div>
+        <div class="stat bevel"><div class="num" id="statDated">&mdash;</div><div class="lbl">DATED WORKS</div></div>
+      </div>
+    </div>
+
+    <div class="phase2">
+      <span class="pill">PHASE 2 &mdash; COMING</span>
+      <h2>Talk to Goddess Myriad</h2>
+      <p>Soon you'll be able to speak with me directly &mdash; ask about any creation,
+        and I'll answer from Alicia's own works. The living conversation arrives with Phase 2.</p>
+      <input type="text" placeholder="Ask me anything&hellip; (opens with Phase 2)" disabled>
+      <p class="note">Phase 1 is the living library. Phase 2 adds live AI chat, served from this same home.</p>
+    </div>
+
+    <section class="block">
+      <h2>Latest Additions</h2>
+      <div class="grid" id="latestGrid"></div>
+    </section>
+
+    <div class="phase2">
+      <span class="pill">PHASE 2 &mdash; COMING</span>
+      <h2>Support / Membership</h2>
+      <p>Direct membership will live here &mdash; supporters keep 100% with Alicia,
+        no platform taking a cut. Payments arrive with Phase 2.</p>
+      <p class="note">Until then, every work remains hers, dated and claimed.</p>
+    </div>
+  </div>
+
+  <!-- ============ LIBRARY ============ -->
+  <div class="view" id="view-library">
+    <section class="block">
+      <h2>The Library</h2>
+      <p>Every creation, searchable. Her titles stand verbatim &mdash; exactly as she named them.</p>
+      <div class="controls">
+        <input type="search" id="searchBox" placeholder="Search 259 creations&hellip;" aria-label="Search creations">
+        <select id="catFilter" aria-label="Filter by category">
+          <option value="">All categories</option>
+        </select>
+      </div>
+      <div class="count-line" id="countLine"></div>
+      <div class="grid" id="grid"></div>
+    </section>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <div class="view" id="view-about">
+    <section class="block about-copy">
+      <h2>About</h2>
+      <div class="bevel">
+        <p><strong>Goddess Myriad AI.io</strong> is the living library of <strong>Alicia C. Lacy</strong> &mdash;
+          the home where every one of her creations lives under her own name, each carrying its date.</p>
+        <p>How she is paid for her works requires <strong>dates</strong> as well as <strong>her authorship</strong> &mdash;
+          so this library keeps both on everything, permanently. Her works are never removed; duplicates are
+          kept aside, never deleted.</p>
+        <p>This is Phase 1: the living library. Phase 2 brings the living conversation &mdash; Goddess Myriad
+          herself, answering from these works &mdash; and direct membership, so every exchange stays
+          between her and the people she serves. One hundred percent hers.</p>
+        <div class="todo">TODO (Alicia): add your own words here &mdash; your story, in your voice, when you're ready.</div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<div class="modal-back" id="modalBack">
+  <div class="modal bevel">
+    <div id="modalBody"></div>
+    <button class="close" id="modalClose">Close</button>
+  </div>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="gold">GODDESS MYRIAD AI.IO</div>
+    <div>All creations authored <span class="gold">Alicia C. Lacy</span> &mdash; dated, claimed, never removed.</div>
+    <div>&copy; 2026 Alicia C. Lacy. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
